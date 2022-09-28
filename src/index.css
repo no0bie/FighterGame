@@ -1,0 +1,175 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.enemies {
+  width: 65%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.enemies > div {
+  padding-left: 10px;
+}
+
+.account-display{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.account-display button {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.cards > div:nth-child(n+2){
+  padding-left: 20px;
+}
+
+.fighter-card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 15rem;
+  cursor: pointer;
+}
+
+.fighter-selected {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 50vh;
+}
+
+.fighter-zoom {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  padding: 2rem;
+  padding-bottom: 0px;
+}
+
+.fighter-zoom-image {
+  width: 25%;
+}
+
+.fighter-zoom-image > img{
+  width: 100%;
+}
+
+/* On mouse-over, add a deeper shadow */
+.fighter-card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+
+
+/*---*/
+.cell{
+  border-collapse: collapse;
+  width: 500px;
+  margin: 0px auto 0px auto;
+}
+
+.cell h2 {
+  font-size: 18pt;
+  margin-bottom: 5px;
+  padding-bottom: 7px;
+  background: transparent url("../public/img/h2cell.gif") no-repeat bottom left;
+  color: #44551c;
+}
+
+.pj {
+  width: 120px;
+  padding-left: 15px;
+}
+
+.sheet {
+  padding-right: 30px;
+  padding-top: 5px;
+}
+
+.level {
+	font-size : 12pt !important;
+	float : right;
+	margin-top : 26px;
+	margin-right : -7px;
+	height : 27px;
+	width : 28px;
+	font-weight : bold;
+	text-align : center;
+	color : #7a3429;
+	padding-left : 30px;
+	padding-right : 10px;
+	padding-top : 4px;
+	background : transparent url("../public/img/nvbg.png") no-repeat top left;
+}
+
+.level img {
+	position : absolute;
+	margin-top : 3px;
+	margin-left : -20px;
+}
+
+.essent {
+  padding-right: 70px;
+}
+
+.actions {
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+tr {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.button4 {
+  width: 222px;
+  height: 31px;
+  font-size: 12pt;
+  font-weight: bold;
+  cursor: pointer;
+  display: block;
+  padding-top: 6px;
+  padding-left: 10px;
+  text-decoration: none;
+  color: #7a3429
+}
+
+/*---*/
+
+/* NAV BAR */
+
+.nav-bar{
+  padding-bottom: 50px;
+}
